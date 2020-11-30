@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace ACTIVIDAD
-{
+{ 
     public partial class Form1 : Form
     {
         private SqlConnection Conexion = null;
