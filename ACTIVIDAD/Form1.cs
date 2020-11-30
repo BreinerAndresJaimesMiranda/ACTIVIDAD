@@ -37,7 +37,9 @@ namespace ACTIVIDAD
             {
                 MessageBox.Show("Error: "+ex.Message);
             }
-            finally { Conexion.Close(); }
+            finally { Conexion.Close();
+                MessageBox.Show("Estado de la conexion: "+Conexion.State.ToString());
+            }
         }
     }
 }
